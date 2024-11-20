@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.delicious {
+    font-family: 'Satisfy', cursive; /* Certifique-se de importar a fonte Satisfy */
+    color: orange;
+    text-align: center;
+}
+
+.cadastro {
+    font-family: 'Poppins', sans-serif; /* Certifique-se de importar a fonte Poppins */
+    color: black;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: black; /* Cor da letra */
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid orange; /* Bordas laranja */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: orange; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: darkorange; /* Efeito hover no botão */
+}
+
+
